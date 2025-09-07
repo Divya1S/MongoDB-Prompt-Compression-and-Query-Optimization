@@ -3,15 +3,6 @@
 
 <p><em>One‑line description:</em> <strong>Inside this project, semantic search results flow through metadata pre‑filters, lean projections, rerankers, and prompt compressors to slash latency & cost while boosting relevance.</strong></p>
 
-<p>
-  <a href="#getting-started">Get Started</a> ·
-  <a href="#notebooks">Notebooks</a> ·
-  <a href="#learning-outcomes">What You'll Learn</a> ·
-  <a href="#setup">Setup</a> ·
-  <a href="#usage">Usage</a> ·
-  <a href="#faq">FAQ</a>
-</p>
-
 <hr/>
 
 <h2 id="overview">Overview</h2>
@@ -104,11 +95,4 @@ OPENAI_API_KEY=...                    # optional, only if a notebook calls an LL
 └─ README.html (this file)
 </code></pre>
 
-<h2 id="contributing">Contributing</h2>
-<p>Issues and PRs are welcome. Please include clear repro steps and follow the style used in existing notebooks.</p>
 
-<h2 id="license">License</h2>
-<p>MIT. See <code>LICENSE</code>.</p>
-
-<hr/>
-<p><em>Tip:</em> Start with the baseline notebook, measure, then add one optimization at a time. Ship measurable wins, not vibes.</p>
