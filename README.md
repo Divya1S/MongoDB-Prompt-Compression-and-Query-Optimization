@@ -90,9 +90,7 @@ OPENAI_API_KEY=...                    # optional, only if a notebook calls an LL
 │  ├─ Projections.ipynb
 │  ├─ Boosting.ipynb
 │  └─ Prompt Compression.ipynb
-├─ requirements.txt
-├─ .env.example
-└─ README.html (this file)
+└─ README.html
 </code></pre>
 
 
