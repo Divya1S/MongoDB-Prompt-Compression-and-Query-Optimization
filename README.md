@@ -74,14 +74,6 @@ OPENAI_API_KEY=...                    # optional, only if a notebook calls an LL
   <li>Finish with <code>Prompt Compression.ipynb</code> to minimize tokens (e.g., context summarization, key‑sentence extraction, vocabulary compaction).</li>
 </ol>
 
-<h2 id="design-notes">Design Notes</h2>
-<ul>
-  <li><strong>Prefiltering vs Postfiltering</strong>: Prefilter early to shrink candidate sets (faster queries); postfilter for user‑specific rules and UI constraints.</li>
-  <li><strong>Projection</strong>: Treat <code>$project</code> as a security boundary—only return what the client needs.</li>
-  <li><strong>Reranking/Boosting</strong>: Blend vector score with metadata features (recency, authority, click‑through) for better relevance.</li>
-  <li><strong>Prompt Compression</strong>: Compress both query and context; evaluate quality vs token savings before/after changes.</li>
-</ul>
-
 <h2 id="structure">Repo Structure</h2>
 <pre><code>.
 ├─ notebooks/
